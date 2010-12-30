@@ -13,6 +13,7 @@
 "Customer Order Status Notification","Notificação de Status do Pedido do Cliente"
 "Details for %s #%s","Detalhes para %s #%s"
 "Discount ","Desconto "
+"Discount (%s)","Desconto (%s)"
 "Enable RSS","Recurso RSS"
 "Error in processing xml. %s","Erro ao processar xml. %s"
 "From:","De:"

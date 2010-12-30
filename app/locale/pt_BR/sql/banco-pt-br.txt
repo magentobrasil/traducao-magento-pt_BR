@@ -1,0 +1,158 @@
+﻿/* cataloginventory_stock */
+UPDATE `cataloginventory_stock` SET `stock_name`='Padrão' WHERE `stock_name`='Default';
+ 
+/* cms_block */
+UPDATE `cms_block` SET `title`='Links de Rodapé' WHERE `title`='Footer Links';
+UPDATE `cms_block` SET `content`='<ul>\r\n<li><a href=\"{{store direct_url=\"about-magento-demo-store\"}}\">Sobre Nós</a></li>\r\n<li class=\"last\"><a href=\"{{store direct_url=\"customer-service\"}}\">Central de Atendimento</a></li>\r\n</ul>' WHERE `content`='<ul>\r\n<li><a href=\"{{store direct_url=\"about-magento-demo-store\"}}\">About Us</a></li>\r\n<li class=\"last\"><a href=\"{{store direct_url=\"customer-service\"}}\">Customer Service</a></li>\r\n</ul>';
+ 
+/* cms_page */
+UPDATE `cms_page` SET `title`='Central de Atendimento' WHERE `title`='Customer Service';
+UPDATE `cms_page` SET `content`='<div class=\"page-title\">\r\n<h1>Central de Atendimento</h1>\r\n</div>\r\n<ul class=\"disc\">\r\n<li><a href=\"#answer1\">Formas de Entrega</a></li>\r\n<li><a href=\"#answer2\">Privacy &amp; Segurança</a></li>\r\n<li><a href=\"#answer3\">Returns &amp; Replacements</a></li>\r\n<li><a href=\"#answer4\">Ordering</a></li>\r\n<li><a href=\"#answer5\">Payment, Pricing &amp; Promotions</a></li>\r\n<li><a href=\"#answer6\">Viewing Orders</a></li>\r\n<li><a href=\"#answer7\">Updating Account Information</a></li>\r\n</ul>\r\n<dl>\r\n<dt id=\"answer1\">Shipping &amp; Delivery</dt>\r\n<dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit. Mauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede. Cras vel libero id lectus rhoncus porta. Suspendisse convallis felis ac enim. Vivamus tortor nisl, lobortis in, faucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper. Phasellus id massa. Pellentesque nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc augue. Aenean sed justo non leo vehicula laoreet. Praesent ipsum libero, auctor ac, tempus nec, tempor nec, justo.</dd>\r\n<dt id=\"answer2\">Privacy &amp; Security</dt>\r\n<dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit. Mauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede. Cras vel libero id lectus rhoncus porta. Suspendisse convallis felis ac enim. Vivamus tortor nisl, lobortis in, faucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper. Phasellus id massa. Pellentesque nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc augue. Aenean sed justo non leo vehicula laoreet. Praesent ipsum libero, auctor ac, tempus nec, tempor nec, justo.</dd>\r\n<dt id=\"answer3\">Returns &amp; Replacements</dt>\r\n<dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit. Mauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede. Cras vel libero id lectus rhoncus porta. Suspendisse convallis felis ac enim. Vivamus tortor nisl, lobortis in, faucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper. Phasellus id massa. Pellentesque nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc augue. Aenean sed justo non leo vehicula laoreet. Praesent ipsum libero, auctor ac, tempus nec, tempor nec, justo.</dd>\r\n<dt id=\"answer4\">Ordering</dt>\r\n<dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit. Mauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede. Cras vel libero id lectus rhoncus porta. Suspendisse convallis felis ac enim. Vivamus tortor nisl, lobortis in, faucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper. Phasellus id massa. Pellentesque nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc augue. Aenean sed justo non leo vehicula laoreet. Praesent ipsum libero, auctor ac, tempus nec, tempor nec, justo.</dd>\r\n<dt id=\"answer5\">Payment, Pricing &amp; Promotions</dt>\r\n<dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit. Mauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede. Cras vel libero id lectus rhoncus porta. Suspendisse convallis felis ac enim. Vivamus tortor nisl, lobortis in, faucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper. Phasellus id massa. Pellentesque nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc augue. Aenean sed justo non leo vehicula laoreet. Praesent ipsum libero, auctor ac, tempus nec, tempor nec, justo.</dd>\r\n<dt id=\"answer6\">Viewing Orders</dt>\r\n<dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit. Mauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede. Cras vel libero id lectus rhoncus porta. Suspendisse convallis felis ac enim. Vivamus tortor nisl, lobortis in, faucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper. Phasellus id massa. Pellentesque nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc augue. Aenean sed justo non leo vehicula laoreet. Praesent ipsum libero, auctor ac, tempus nec, tempor nec, justo.</dd>\r\n<dt id=\"answer7\">Updating Account Information</dt>\r\n<dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit. Mauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede. Cras vel libero id lectus rhoncus porta. Suspendisse convallis felis ac enim. Vivamus tortor nisl, lobortis in, faucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper. Phasellus id massa. Pellentesque nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc augue. Aenean sed justo non leo vehicula laoreet. Praesent ipsum libero, auctor ac, tempus nec, tempor nec, justo.</dd>\r\n</dl>' WHERE `content`='<div class=\"page-title\">\r\n<h1>Customer Service</h1>\r\n</div>\r\n<ul class=\"disc\">\r\n<li><a href=\"#answer1\">Shipping &amp; Delivery</a></li>\r\n<li><a href=\"#answer2\">Privacy &amp; Security</a></li>\r\n<li><a href=\"#answer3\">Returns &amp; Replacements</a></li>\r\n<li><a href=\"#answer4\">Ordering</a></li>\r\n<li><a href=\"#answer5\">Payment, Pricing &amp; Promotions</a></li>\r\n<li><a href=\"#answer6\">Viewing Orders</a></li>\r\n<li><a href=\"#answer7\">Updating Account Information</a></li>\r\n</ul>\r\n<dl>\r\n<dt id=\"answer1\">Shipping &amp; Delivery</dt>\r\n<dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit. Mauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede. Cras vel libero id lectus rhoncus porta. Suspendisse convallis felis ac enim. Vivamus tortor nisl, lobortis in, faucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper. Phasellus id massa. Pellentesque nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc augue. Aenean sed justo non leo vehicula laoreet. Praesent ipsum libero, auctor ac, tempus nec, tempor nec, justo.</dd>\r\n<dt id=\"answer2\">Privacy &amp; Security</dt>\r\n<dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit. Mauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede. Cras vel libero id lectus rhoncus porta. Suspendisse convallis felis ac enim. Vivamus tortor nisl, lobortis in, faucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper. Phasellus id massa. Pellentesque nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc augue. Aenean sed justo non leo vehicula laoreet. Praesent ipsum libero, auctor ac, tempus nec, tempor nec, justo.</dd>\r\n<dt id=\"answer3\">Returns &amp; Replacements</dt>\r\n<dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit. Mauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede. Cras vel libero id lectus rhoncus porta. Suspendisse convallis felis ac enim. Vivamus tortor nisl, lobortis in, faucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper. Phasellus id massa. Pellentesque nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc augue. Aenean sed justo non leo vehicula laoreet. Praesent ipsum libero, auctor ac, tempus nec, tempor nec, justo.</dd>\r\n<dt id=\"answer4\">Ordering</dt>\r\n<dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit. Mauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede. Cras vel libero id lectus rhoncus porta. Suspendisse convallis felis ac enim. Vivamus tortor nisl, lobortis in, faucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper. Phasellus id massa. Pellentesque nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc augue. Aenean sed justo non leo vehicula laoreet. Praesent ipsum libero, auctor ac, tempus nec, tempor nec, justo.</dd>\r\n<dt id=\"answer5\">Payment, Pricing &amp; Promotions</dt>\r\n<dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit. Mauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede. Cras vel libero id lectus rhoncus porta. Suspendisse convallis felis ac enim. Vivamus tortor nisl, lobortis in, faucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper. Phasellus id massa. Pellentesque nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc augue. Aenean sed justo non leo vehicula laoreet. Praesent ipsum libero, auctor ac, tempus nec, tempor nec, justo.</dd>\r\n<dt id=\"answer6\">Viewing Orders</dt>\r\n<dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit. Mauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede. Cras vel libero id lectus rhoncus porta. Suspendisse convallis felis ac enim. Vivamus tortor nisl, lobortis in, faucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper. Phasellus id massa. Pellentesque nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc augue. Aenean sed justo non leo vehicula laoreet. Praesent ipsum libero, auctor ac, tempus nec, tempor nec, justo.</dd>\r\n<dt id=\"answer7\">Updating Account Information</dt>\r\n<dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit. Mauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede. Cras vel libero id lectus rhoncus porta. Suspendisse convallis felis ac enim. Vivamus tortor nisl, lobortis in, faucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper. Phasellus id massa. Pellentesque nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc augue. Aenean sed justo non leo vehicula laoreet. Praesent ipsum libero, auctor ac, tempus nec, tempor nec, justo.</dd>\r\n</dl>';
+UPDATE `cms_page` SET `title`='Sobre Nós' WHERE `title`='About Us';
+/* UPDATE `cms_page` SET `content`='' WHERE `content`=''; */
+UPDATE `cms_page` SET `title`='Ativar Cookies' WHERE `title`='Enable Cookies';
+/* UPDATE `cms_page` SET `content`='' WHERE `content`=''; */
+UPDATE `cms_page` SET `title`='Página Inicial' WHERE `title`='Home page';
+/* UPDATE `cms_page` SET `content`='' WHERE `content`=''; */
+UPDATE `cms_page` SET `title`='404 Não Encontrado' WHERE `title`='404 Not Found 1';
+/* UPDATE `cms_page` SET `content`='' WHERE `content`=''; */
+ 
+/* core_store */
+UPDATE `core_store` SET `name`='Português (Brasil)' WHERE `name`='Default Store View';
+ 
+/* core_store_group */
+UPDATE `core_store_group` SET `name`='Loja Principal' WHERE `name`='Main Website Store';
+ 
+/* core_website */
+UPDATE `core_website` SET `name`='Website Principal' WHERE `name`='Main Website';
+ 
+/* customer_group */
+UPDATE `customer_group` SET `customer_group_code`='Visitante' WHERE `customer_group_code`='NOT LOGGED IN';
+UPDATE `customer_group` SET `customer_group_code`='Comum' WHERE `customer_group_code`='General';
+UPDATE `customer_group` SET `customer_group_code`='Atacado' WHERE `customer_group_code`='Wholesale';
+UPDATE `customer_group` SET `customer_group_code`='Revenda' WHERE `customer_group_code`='Retailer';
+ 
+/* dataflow_profile */
+UPDATE `dataflow_profile` SET `name`='Exportar Todos Produtos' WHERE `name`='Export All Products';
+UPDATE `dataflow_profile` SET `name`='Exportar Estoque Produtos' WHERE `name`='Export Product Stocks';
+UPDATE `dataflow_profile` SET `name`='Importar Todos Produtos' WHERE `name`='Import All Products';
+UPDATE `dataflow_profile` SET `name`='Importar Estoque Produtos' WHERE `name`='Import Product Stocks';
+UPDATE `dataflow_profile` SET `name`='Exportar Clientes' WHERE `name`='Export Customers';
+UPDATE `dataflow_profile` SET `name`='Importar Clientes' WHERE `name`='Import Customers';
+ 
+/* eav_attribute */
+UPDATE `eav_attribute` SET `frontend_label`='Ativar Em' WHERE `frontend_label`='Active From';    
+UPDATE `eav_attribute` SET `frontend_label`='Ativar Até' WHERE `frontend_label`='Active To';    
+UPDATE `eav_attribute` SET `frontend_label`='Permitir Mensagem de Presente' WHERE `frontend_label`='Allow Gift Message';    
+UPDATE `eav_attribute` SET `frontend_label`='Aplicar Para' WHERE `frontend_label`='Apply To';    
+UPDATE `eav_attribute` SET `frontend_label`='Associar ao Website' WHERE `frontend_label`='Associate to Website';    
+UPDATE `eav_attribute` SET `frontend_label`='Ordem de Listagem dos Produtos Disponíveis' WHERE `frontend_label`='Available Product Listing Sort by';    
+UPDATE `eav_attribute` SET `frontend_label`='Imagem Base' WHERE `frontend_label`='Base Image';    
+UPDATE `eav_attribute` SET `frontend_label`='Contagem' WHERE `frontend_label`='Children Count';    
+UPDATE `eav_attribute` SET `frontend_label`='Cidade' WHERE `frontend_label`='City';    
+UPDATE `eav_attribute` SET `frontend_label`='Bloco CMS' WHERE `frontend_label`='CMS Block';    
+UPDATE `eav_attribute` SET `frontend_label`='Profissão' WHERE `frontend_label`='Company';    
+UPDATE `eav_attribute` SET `frontend_label`='Custo' WHERE `frontend_label`='Cost';
+UPDATE `eav_attribute` SET `frontend_label`='Cor' WHERE `frontend_label`='Color';    
+UPDATE `eav_attribute` SET `frontend_label`='País' WHERE `frontend_label`='Country';    
+UPDATE `eav_attribute` SET `frontend_label`='Criado Em' WHERE `frontend_label`='Create In';    
+UPDATE `eav_attribute` SET `frontend_label`='Criado Na' WHERE `frontend_label`='Created At';    
+UPDATE `eav_attribute` SET `frontend_label`='Criado na Loja' WHERE `frontend_label`='Created From';    
+UPDATE `eav_attribute` SET `frontend_label`='Leiaute Personalizado' WHERE `frontend_label`='Custom Design';    
+UPDATE `eav_attribute` SET `frontend_label`='Atualização de Leiaute' WHERE `frontend_label`='Custom Layout Update';    
+UPDATE `eav_attribute` SET `frontend_label`='Data de Nascimento' WHERE `frontend_label`='Date Of Birth';    
+UPDATE `eav_attribute` SET `frontend_label`='Endereço de Cobrança Padrão' WHERE `frontend_label`='Default Billing Address';    
+UPDATE `eav_attribute` SET `frontend_label`='Ordem de Listagem Padrão dos Produtos' WHERE `frontend_label`='Default Product Listing Sort by';    
+UPDATE `eav_attribute` SET `frontend_label`='Endereço de Entrega Padrão' WHERE `frontend_label`='Default Shipping Address';    
+UPDATE `eav_attribute` SET `frontend_label`='Descrição' WHERE `frontend_label`='Description';    
+UPDATE `eav_attribute` SET `frontend_label`='Modo de Exibição' WHERE `frontend_label`='Display Mode';    
+UPDATE `eav_attribute` SET `frontend_label`='Exibir opções do produto em' WHERE `frontend_label`='Display product options in';    
+UPDATE `eav_attribute` SET `frontend_label`='E-Mail' WHERE `frontend_label`='Email';    
+UPDATE `eav_attribute` SET `frontend_label`='Fax' WHERE `frontend_label`='Fax';    
+UPDATE `eav_attribute` SET `frontend_label`='Nome' WHERE `frontend_label`='First Name';    
+UPDATE `eav_attribute` SET `frontend_label`='Sexo' WHERE `frontend_label`='Gender';    
+UPDATE `eav_attribute` SET `frontend_label`='Grupo' WHERE `frontend_label`='Group';    
+UPDATE `eav_attribute` SET `frontend_label`='Imagem' WHERE `frontend_label`='Image';    
+UPDATE `eav_attribute` SET `frontend_label`='Galeria de Imagens' WHERE `frontend_label`='Image Gallery';    
+UPDATE `eav_attribute` SET `frontend_label`='Descrição da Imagem' WHERE `frontend_label`='Image Label';    
+UPDATE `eav_attribute` SET `frontend_label`='Ativar' WHERE `frontend_label`='Is Active';    
+UPDATE `eav_attribute` SET `frontend_label`='Navegável' WHERE `frontend_label`='Is Anchor';    
+UPDATE `eav_attribute` SET `frontend_label`='Confirmado' WHERE `frontend_label`='Is Confirmed';    
+UPDATE `eav_attribute` SET `frontend_label`='Permitir comprar usando Google Checkout' WHERE `frontend_label`='Is product available for purchase with Google Checkout';    
+UPDATE `eav_attribute` SET `frontend_label`='Sobrenome' WHERE `frontend_label`='Last Name';    
+UPDATE `eav_attribute` SET `frontend_label`='Nível' WHERE `frontend_label`='Level';    
+UPDATE `eav_attribute` SET `frontend_label`='Links podem ser adquiridos separadamente' WHERE `frontend_label`='Links can be purchased separately';    
+UPDATE `eav_attribute` SET `frontend_label`='Título do Link' WHERE `frontend_label`='Links title';    
+UPDATE `eav_attribute` SET `frontend_label`='Fabricante' WHERE `frontend_label`='Manufacturer';                 
+UPDATE `eav_attribute` SET `frontend_label`='Galeria de Mídia' WHERE `frontend_label`='Media Gallery';    
+UPDATE `eav_attribute` SET `frontend_label`='Descrição da Página' WHERE `frontend_label`='Meta Description';    
+UPDATE `eav_attribute` SET `frontend_label`='Palavras-Chave' WHERE `frontend_label`='Meta Keywords';    
+UPDATE `eav_attribute` SET `frontend_label`='Título da Página' WHERE `frontend_label`='Meta Title';    
+UPDATE `eav_attribute` SET `frontend_label`='Assinatura' WHERE `frontend_label`='Middle Name/Initial';    
+UPDATE `eav_attribute` SET `frontend_label`='Preço Mínimo' WHERE `frontend_label`='Minimal Price';    
+UPDATE `eav_attribute` SET `frontend_label`='Nome' WHERE `frontend_label`='Name';    
+UPDATE `eav_attribute` SET `frontend_label`='Formato da Página' WHERE `frontend_label`='Page Layout';    
+UPDATE `eav_attribute` SET `frontend_label`='Título da Página' WHERE `frontend_label`='Page Title';    
+UPDATE `eav_attribute` SET `frontend_label`='Caminho' WHERE `frontend_label`='Path';    
+UPDATE `eav_attribute` SET `frontend_label`='Situação' WHERE `frontend_label`='Position';    
+UPDATE `eav_attribute` SET `frontend_label`='Prefixo' WHERE `frontend_label`='Prefix';    
+UPDATE `eav_attribute` SET `frontend_label`='Preço' WHERE `frontend_label`='Price';    
+UPDATE `eav_attribute` SET `frontend_label`='Preço a Vista' WHERE `frontend_label`='Price View';    
+UPDATE `eav_attribute` SET `frontend_label`='Título Amostra' WHERE `frontend_label`='Samples title';    
+UPDATE `eav_attribute` SET `frontend_label`='Novo Produto em' WHERE `frontend_label`='Set Product as New from Date';    
+UPDATE `eav_attribute` SET `frontend_label`='Novo Produto até' WHERE `frontend_label`='Set Product as New to Date';    
+UPDATE `eav_attribute` SET `frontend_label`='Entrega' WHERE `frontend_label`='Shipment';    
+UPDATE `eav_attribute` SET `frontend_label`='Descrição Resumida' WHERE `frontend_label`='Short Description';    
+UPDATE `eav_attribute` SET `frontend_label`='Código Identificador (SKU)' WHERE `frontend_label`='SKU';    
+UPDATE `eav_attribute` SET `frontend_label`='Imagem Reduzida' WHERE `frontend_label`='Small Image';    
+UPDATE `eav_attribute` SET `frontend_label`='Descrição Imagem Reduzida' WHERE `frontend_label`='Small Image Label';    
+UPDATE `eav_attribute` SET `frontend_label`='Preço Promocional' WHERE `frontend_label`='Special Price';    
+UPDATE `eav_attribute` SET `frontend_label`='Preço Promocional em' WHERE `frontend_label`='Special Price From Date';    
+UPDATE `eav_attribute` SET `frontend_label`='Preço Promocional até' WHERE `frontend_label`='Special Price To Date';    
+UPDATE `eav_attribute` SET `frontend_label`='Estado' WHERE `frontend_label`='State/Province';    
+UPDATE `eav_attribute` SET `frontend_label`='Situação' WHERE `frontend_label`='Status';    
+UPDATE `eav_attribute` SET `frontend_label`='Endereço' WHERE `frontend_label`='Street Address';    
+UPDATE `eav_attribute` SET `frontend_label`='Sufixo' WHERE `frontend_label`='Suffix';    
+UPDATE `eav_attribute` SET `frontend_label`='Classe de Impostos' WHERE `frontend_label`='Tax Class';    
+UPDATE `eav_attribute` SET `frontend_label`='CPF/CNPJ' WHERE `frontend_label`='Tax/VAT Number';    
+UPDATE `eav_attribute` SET `frontend_label`='Telefone' WHERE `frontend_label`='Telephone';    
+UPDATE `eav_attribute` SET `frontend_label`='Miniatura' WHERE `frontend_label`='Thumbnail';    
+UPDATE `eav_attribute` SET `frontend_label`='Descrição Miniatura' WHERE `frontend_label`='Thumbnail Label';    
+UPDATE `eav_attribute` SET `frontend_label`='Faixa de Preços' WHERE `frontend_label`='Tier Price';    
+UPDATE `eav_attribute` SET `frontend_label`='Nome na URL' WHERE `frontend_label`='URL key';    
+UPDATE `eav_attribute` SET `frontend_label`='Visibilidade' WHERE `frontend_label`='Visibility';    
+UPDATE `eav_attribute` SET `frontend_label`='Peso' WHERE `frontend_label`='Weight';    
+UPDATE `eav_attribute` SET `frontend_label`='CEP' WHERE `frontend_label`='Zip/Postal Code';                 
+ 
+/* eav_form_fieldset_label */
+UPDATE `eav_form_fieldset_label` SET `label`='Informações Pessoais' WHERE `label`='Personal Information';
+UPDATE `eav_form_fieldset_label` SET `label`='Informações de Conta' WHERE `label`='Account Information';
+UPDATE `eav_form_fieldset_label` SET `label`='Informações de Contato' WHERE `label`='Contact Information';
+UPDATE `eav_form_fieldset_label` SET `label`='Endereços' WHERE `label`='Address';
+UPDATE `eav_form_fieldset_label` SET `label`='Informações de Endereços' WHERE `label`='Address Information';
+ 
+/* poll */
+UPDATE `poll` SET `poll_title`='Qual sua cor favorita' WHERE `poll_title`='What is your favorite color';
+ 
+/* poll_answer */
+UPDATE `poll_answer` SET `answer_title`='Verde' WHERE `answer_title`='Green';
+UPDATE `poll_answer` SET `answer_title`='Vermelho' WHERE `answer_title`='Red';
+UPDATE `poll_answer` SET `answer_title`='Preto' WHERE `answer_title`='Black';
+UPDATE `poll_answer` SET `answer_title`='Magenta' WHERE `answer_title`='Magenta';
+ 
+/* rating */
+UPDATE `rating` SET `rating_code`='Qualidade' WHERE `rating_code`='Quality';
+UPDATE `rating` SET `rating_code`='Pontuação' WHERE `rating_code`='Value';
+UPDATE `rating` SET `rating_code`='Preço' WHERE `rating_code`='Price';
+ 
+/* review_status */
+UPDATE `review_status` SET `status_code`='Aprovado' WHERE `status_code`='Approved';
+UPDATE `review_status` SET `status_code`='Pendente' WHERE `status_code`='Pending';
+UPDATE `review_status` SET `status_code`='Reprovado' WHERE `status_code`='Not Approved';
+ 
+/* catalog_product_link_type */
+/* eav_attribute_group */
+/* eav_attribute_set */
+/* eav_form_fieldset */
+/* log_summary_type */
+/* tax_class */

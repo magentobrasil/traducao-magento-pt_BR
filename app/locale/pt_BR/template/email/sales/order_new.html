@@ -1,4 +1,4 @@
-<!--@subject {{var order.getStoreGroupName()}}: Novo Pedido # {{var order.increment_id}} @-->
+<!--@subject {{var order.getStoreGroupName()}}: Novo pedido # {{var order.increment_id}} @-->
 <!--@vars
 {"store url=\"\"":"Store Url",
 "skin url=\"images/logo_email.gif\" _area='frontend'":"Email Logo Image",
@@ -35,7 +35,7 @@ body,td { color:#2f2f2f; font:11px/1.35em Verdana, Arial, Helvetica, sans-serif;
                     <p>
                         <strong>Ol&aacute; {{htmlescape var=$order.getBillingAddress().getName()}}</strong>,<br/>
                         Agradecemos por seu pedido em {{var store.getFrontendName()}}.
-                        Assim que seu pedido sair para entrega n&oacute;s enviaremos um email com informa&ccedil;&otilde;es de rastreamento do seu pedido.
+                        Assim que seu pedido sair para entrega n&oacute;s enviaremos um e-mail com informa&ccedil;&otilde;es de rastreamento do seu pedido.
                         Se voc&ecirc; tiver qualquer d&uacute;vida sobre seu pedido, por favor, sinta-se &agrave; vontade para contatar-nos em <a href="mailto:{{config path='trans_email/ident_support/email'}}" style="color:#1E7EC8;">{{config path='trans_email/ident_support/email'}}</a> ou telefone <span class="nobr">{{config path='general/store_information/phone'}}</span> em hor&aacute;rio comercial.
                     </p>
                     <p>Esta &eacute; uma confirma&ccedil;&atilde;o do seu pedido. Agradecemos a confian&ccedil;a depositada.</p>
@@ -68,7 +68,7 @@ body,td { color:#2f2f2f; font:11px/1.35em Verdana, Arial, Helvetica, sans-serif;
                         <tr>
                             <th align="left" width="48.5%" bgcolor="#d9e5ee" style="padding:5px 9px 6px 9px; border:1px solid #bebcb7; border-bottom:none; line-height:1em;">Informa&ccedil;&otilde;es de Entrega:</th>
                             <th width="3%"></th>
-                            <th align="left" width="48.5%" bgcolor="#d9e5ee" style="padding:5px 9px 6px 9px; border:1px solid #bebcb7; border-bottom:none; line-height:1em;">Forma de Entrega:</th>
+                            <th align="left" width="48.5%" bgcolor="#d9e5ee" style="padding:5px 9px 6px 9px; border:1px solid #bebcb7; border-bottom:none; line-height:1em;">M&eacute;todo de Envio:</th>
                         </tr>
                         </thead>
                         <tbody>

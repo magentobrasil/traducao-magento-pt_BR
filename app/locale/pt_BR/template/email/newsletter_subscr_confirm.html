@@ -1,4 +1,4 @@
-<!--@subject Confirmação de inscrição na newsletter @-->
+<!--@subject Aviso de assinatura de newsletter @-->
 <!--@vars
 {"store url=\"\"":"Store Url",
 "skin url=\"images/logo_email.gif\" _area='frontend'":"Email Logo Image",
@@ -27,7 +27,7 @@ body,td { color:#2f2f2f; font:11px/1.35em Verdana, Arial, Helvetica, sans-serif;
                         <td valign="top">
                             <p><strong>Caro(a) {{htmlescape var=$customer.name}},</strong>,<br/>
                             Obrigado por assinar nossa newsletter.</p>
-                            <p style="border:1px solid #BEBCB7; padding:13px 18px; background:#F8F7F5; ">Para come&ccedil;ar a receber as newsletter, voc&ecirc; primeiro precisa confirmar sua assinatura clicando no seguinte link:<br />
+                            <p style="border:1px solid #BEBCB7; padding:13px 18px; background:#F8F7F5; ">Para come&ccedil;ar a receber as promo&ccedil;&otilde;es novidades por e-mail, voc&ecirc; primeiro precisa confirmar sua assinatura clicando no seguinte link:<br />
                             <a href="{{var subscriber.getConfirmationLink()}}" style="color:#1E7EC8;">{{var subscriber.getConfirmationLink()}}</a><p>
 
                             <p>Obrigado novamente,<br/><strong>{{var store.getFrontendName()}}</strong></p>

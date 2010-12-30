@@ -1,4 +1,4 @@
-<!--@subject {{var order.getStoreGroupName()}}: Memorando de crédito # {{var creditmemo.increment_id}} atualização @-->
+<!--@subject {{var order.getStoreGroupName()}}: Reembolso # {{var creditmemo.increment_id}} atualizado @-->
 <!--@vars
 {"store url=\"\"":"Store Url",
 "skin url=\"images/logo_email.gif\" _area='frontend'":"Email Logo Image",
@@ -30,7 +30,7 @@ body,td { color:#2f2f2f; font:11px/1.35em Verdana, Arial, Helvetica, sans-serif;
             <td valign="top">
                 <p>
                     <strong>Caro {{htmlescape var=$order.getCustomerName()}}</strong>,<br/>
-                    Seu pedido # {{var order.increment_id}} foi <br/>
+                    Seu pedido #{{var order.increment_id}} foi <br/>
                     <strong>{{var order.getStatusLabel()}}</strong>.
                 </p>
                 <p>Para acompanhar o status do seu pedido visite <a href="{{store url="customer/account/"}}" style="color:#1E7EC8;">sua conta</a>.</p>
