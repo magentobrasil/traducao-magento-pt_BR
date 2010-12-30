@@ -1,0 +1,8 @@
+"Click here to go to <a href=""%s"">Cache Management</a> and refresh cache types.","Clique aqui para ir a página de <a href=""%s"">Gerenciamento de Cache</a> e atualizar os tipos de cache."
+"Click here to go to <a href=""%s"">Index Management</a> and rebuild required indexes.","Clique aqui para ir a página de <a href=""%s"">Gerenciamento de Index</a> e reconstruir os índices obrigatórios."
+"Disable","Desabilitar"
+"Enable","Habilitar"
+"Index Management","Gerenciar Índices"
+"One or more of the Indexes are not up to date:","Um ou mais índices não estão atualizados:"
+"Refresh","Atualizar"
+"Reindex Data","Reindexar Dados"

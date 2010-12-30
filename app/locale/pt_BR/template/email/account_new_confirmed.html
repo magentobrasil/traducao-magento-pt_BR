@@ -1,0 +1,54 @@
+<!--@subject Bem-vindo, {{var customer.name}}! @-->
+<!--@vars
+{"store url=\"\"":"Store Url",
+"skin url=\"images/logo_email.gif\" _area='frontend'":"Email Logo Image",
+"htmlescape var=$customer.name":"Customer Name",
+"store url=\"customer/account/\"":"Customer Account Url"}
+@-->
+
+<!--@styles
+body,td { color:#2f2f2f; font:11px/1.35em Verdana, Arial, Helvetica, sans-serif; }
+@-->
+
+<div style="font:11px/1.35em Verdana, Arial, Helvetica, sans-serif;">
+    <table cellspacing="0" cellpadding="0" border="0" width="98%" style="margin-top:10px; font:11px/1.35em Verdana, Arial, Helvetica, sans-serif; margin-bottom:10px;">
+        <tr>
+            <td align="center" valign="top">
+                <!-- [ header starts here] -->
+                <table cellspacing="0" cellpadding="0" border="0" width="650">
+                    <tr>
+                        <td valign="top">
+                            <a href="{{store url=""}}"><img src="{{skin url="images/logo_email.gif" _area='frontend'}}" alt="{{var store.getFrontendName()}}"  style="margin-bottom:10px;" border="0"/></a></td>
+                    </tr>
+                </table>
+
+                <!-- [ middle starts here] -->
+                <table cellspacing="0" cellpadding="0" border="0" width="650">
+                    <tr>
+                        <td valign="top">
+                            <p><strong>Caro(a) {{htmlescape var=$customer.name}}</strong>,<br/>
+                            Seja muito bem vindo(a) &agrave; {{var store.getFrontendName()}}. Acesse sua conta clicando em <a href="{{store url="customer/account/"}}" style="color:#1E7EC8;">Entrar</a> ou <a href="{{store url="customer/account/"}}" style="color:#1E7EC8;">Conta</a> no topo de nossas p&aacute;ginas, ent&atilde;o informe seu email e senha.</p>
+
+                            <p>Quando voce acessar sua conta, voce poder&aacute;:</p>
+
+                            <ul>
+                                <li>Fechar suas compras com maior agilidade</li>
+                                <li>Acompanhar seus pedidos</li>
+                                <li>Ver hist&oacute;rico de pedidos</li>
+                                <li>Alterar informa&ccedil;&otilde;es de conta</li>
+                                <li>Alterar sua senha</li>
+                                <li>Cadastrar novos endere&ccedil;os (como endere&ccedil;o de familiares, trabalho e amigos!)</li>
+                            </ul>
+
+                            <p>Se voc&ecirc; tiver alguma d&uacute;vida sobre sua conta ou qualquer outra informa&ccedil;&atilde;o do site, por favor nao deixe de entrar em contato <a href="mailto:{{config path='trans_email/ident_support/email'}}" style="color:#1E7EC8;">{{config path='trans_email/ident_support/email'}}</a> ou por telefone {{config path='general/store_information/phone'}}.</p>
+                            <p>Obrigado!</p>
+
+
+                        </td>
+                    </tr>
+                </table>
+
+            </td>
+        </tr>
+    </table>
+</div>

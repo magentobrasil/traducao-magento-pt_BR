@@ -1,0 +1,49 @@
+<!--@subject Confira à lista de desejos de {{var customer.name}} @-->
+<!--@vars
+{"store url=\"\"":"Store Url",
+"skin url=\"images/logo_email.gif\" _area='frontend'":"Email Logo Image",
+"var message":"Wishlist Message",
+"var items":"Wishlist Items"}
+@-->
+<!--@styles
+body,td { color:#2f2f2f; font:11px/1.35em Verdana, Arial, Helvetica, sans-serif; }
+@-->
+
+<div style="font:11px/1.35em Verdana, Arial, Helvetica, sans-serif;">
+    <table cellspacing="0" cellpadding="0" border="0" width="98%" style="margin-top:10px; font:11px/1.35em Verdana, Arial, Helvetica, sans-serif; margin-bottom:10px;">
+        <tr>
+            <td align="center" valign="top">
+            <!-- [ header starts here] -->
+                <table cellspacing="0" cellpadding="0" border="0" width="650">
+                    <tr>
+                        <td valign="top">
+                            <p><a href="{{store url=""}}" style="color:#1E7EC8;"><img src="{{skin url="images/logo_email.gif" _area='frontend'}}" alt="{{var store.getFrontendName()}}" border="0"/></a></p></td>
+                    </tr>
+                </table>
+
+            <!-- [ middle starts here] -->
+                <table cellspacing="0" cellpadding="0" border="0" width="650">
+                    <tr>
+                        <td valign="top">
+                        <p>Opa,<br/>
+                        Confira minha lista de produtos favoritos da loja {{var store.getFrontendName()}}.</p>
+
+<p>{{var message}}</p>
+
+                        {{var items}}
+
+                        <br/>
+
+{{depend salable}}<p><strong><a href="{{var addAllLink}}" style="color:#DC6809;">Adicionar todos os itens ao carrinho de compras</a></strong> |{{/depend}} <strong><a href="{{var viewOnSiteLink}}" style="color:#1E7EC8;">Ver todos os itens</a></strong></p>
+
+                        <p>Obrigado,<br/><strong>{{htmlescape var=$customer.name}}</strong></p>
+
+
+                        </td>
+                    </tr>
+                </table>
+
+            </td>
+        </tr>
+    </table>
+    </div>
